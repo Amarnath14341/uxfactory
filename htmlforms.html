@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>html forms</title>
+</head>
+
+<body style="background-color: brown;">
+    <fieldset>
+        <legend style="font-size: x-large; color: blue;">Registartion form </legend>
+        <img src="images.html/jai.jpeg.jpeg" alt="jai.jpeg.jpeg" height="100px" width="100px">
+        <hr>
+        <h1 style="text-align: center;color: cornflowerblue; font-weight:bold">Registartion Form </h1>
+        <form style="color: cornsilk;">
+            <p style="text-align: center;"><label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" ;font-size: large; placeholder="enter first name" size="30">
+            </p>
+            <p style="text-align: center;"><label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" style="font-size: medium;" size="30">
+            </p>
+            <p style="text-align: center;"><label for="email">email:</label>
+                <input type="email" id="email" placeholder="enter email" />
+            </p>
+            <p style="text-align: center;"><label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </p>
+            <p style="text-align: center;"><label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" style="font-size: medium;">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="others" name="gender" value="others">
+                <label for="others">Others</label>
+            </p>
+            <p style="text-align: center;"><label for="languages">Languages:</label>
+                <input type="checkbox" id="english" name="language" value="english">
+                <label for="english">English:</label>
+                <input type="checkbox" id="Telugu" name="language" value="telugu">
+                <label for="telugu">Telugu:</label>
+                <input type="checkbox" id="hindi" name="language" value="hindi">
+                <label for="hindi">Hndi:</label>
+            </p>
+            <p style="text-align: center;"><label for="jobdescription">Jobdescription:</label>
+                <textarea id="jobdescription" name="jobdescription" rows="10" cols="55"
+                    placeholder="describe about your previous job"></textarea>
+            </p><br>
+            <p style="text-align: center;"><label for="country">country</label>
+                <select id="country" name="country">
+                    <option value="india">india</option>
+                    <option value="america">america</option>
+                    <option value="ausralia">australia</option>
+                    <option value="brazil">brazil</option>
+                    <option value="bangladesh">bangladesh</option>
+                    <option value="britain">britain</option>
+                    <option value="italy">italy</option>
+                </select>
+            </p>
+            <p style="text-align: center;"><label for="fruits">fruits</label>
+
+                <select id="fruits" name="fruits">
+                    <option value="apple">apple</option>
+                    <option value="banana">banana</option>
+                    <option value="grapes">grapes</option>
+                    <option value="orange">orange</option>
+                    <option value="papaya">papaya</option>
+                    <option value="jackfruit">jackfruit</option>
+                    <option value="pineapple">pineapple</option>
+                </select>
+                <br><br>
+                <label for="vegetables">vegetables</label>
+                <select id="vegetables" name="vegetables">
+                    <option value="tomato">tomato</option>
+                    <option value="cucumber">cucumber</option>
+                    <option value="brinjal">brinjal</option>
+                    <option value="mirchi">mirchi</option>
+                    <option value="beetroot">beetroot</option>
+                    <option value="carrot">carrot</option>
+                    <option value="onion">onion</option>
+                </select>
+            </p>
+            <p style="text-align: center;"><label for="photo">upload photo</label>
+                <input type="file" id="photo" name="photo">
+            </p>
+            <p style="text-align: center;"><label for="birthday">birthday:</label>
+                <input type="date" id="birthday" </p>
+                <Label for="favcolor">favorite color</Label>
+                <input type="color" id="favcolor" name="favcolor" /><br><br>
+                <input style="background-color: burlywood; cursor: grab;" type="button" name="submit" value="submit" />
+                <input type="reset" />
+
+
+
+
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
